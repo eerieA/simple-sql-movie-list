@@ -73,7 +73,7 @@ def prompt_search_movies():
     if movies:
         print_movie_list("Movies found", movies)
     else:
-        print("Sorry, no movies found for that keyword.")
+        print(f"Sorry, no movies found for \"{search_term}\".\n")
 
 
 # ============================================================================ #
