@@ -68,7 +68,7 @@ def promt_print_watched_movies():
 
 
 def prompt_search_movies():
-    search_term = input("Enter a search keyword: ")
+    search_term = input("Enter a search keyword (case sensitive): ")
     movies = database.search_movies(search_term)
     if movies:
         print_movie_list("Movies found", movies)
